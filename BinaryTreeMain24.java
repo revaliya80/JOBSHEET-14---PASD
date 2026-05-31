@@ -35,5 +35,8 @@ public class BinaryTreeMain24 {
         bst.delete(3.57);
         System.out.println("\nDaftra semua mahasiswa setelah penghapusan 1 mahasiswa (in order traversal): ");
         bst.traverseInOrder(bst.root);
+        
+        System.out.println("\nMahasiswa dengan IPK di atas 3.50");
+        bst.tampilMahasiswaIPKdiAtas(3.50);
     }
 }
